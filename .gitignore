@@ -1,0 +1,77 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.py.class
+*.so
+
+# ---- Virtual Environments ----
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ---- OS & IDE Files ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ---- Logs & Cache ----
+*.log
+*.out
+*.bak
+*.tmp
+*.cache/
+*.pytest_cache/
+__pycache__/
+.ipynb_checkpoints/
+coverage/
+htmlcov/
+.mypy_cache/
+
+# ---- Environment / Config ----
+.env
+*.env
+config.json
+secrets.json
+credentials.json
+openai_api_key.txt
+
+# ---- Build & Distribution ----
+build/
+dist/
+*.egg-info/
+.eggs/
+MANIFEST
+
+# ---- Reports & Output ----
+/reports/
+*.pdf
+*.xlsx
+*.csv
+
+# ---- Streamlit ----
+.streamlit/secrets.toml
+
+# ---- Docker ----
+*.pid
+*.tar
+docker-compose.override.yml
+
+# ---- Jupyter ----
+.ipynb_checkpoints
+
+# ---- Node (if front-end later expands) ----
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ---- System ----
+*.DS_Store
